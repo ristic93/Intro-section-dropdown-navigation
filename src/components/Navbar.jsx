@@ -7,7 +7,7 @@ import menu from "../assets/icon-menu.svg";
 import close from "../assets/icon-close-menu.svg";
 
 const Navbar = () => {
-  
+
   const [toggle, setToggle] = useState(true);
 
   const [toggleOne, setToggleOne] = useState(true);
@@ -205,6 +205,14 @@ const Navbar = () => {
               About
             </a>
           </li>
+        <div className="flex flex-col items-center md:hidden text-gray">
+          <p className="cursor-pointer py-2 text-center transition-all hover:text-black">
+            Login
+          </p>
+          <button className="border border-black rounded-xl px-8 py-2 transition-all duration-300 hover:bg-black hover:text-white hover:scale-[1.2] font-bold animate-pulse">
+            Register
+          </button>
+        </div>
         </ul>
       </div>
     </nav>
