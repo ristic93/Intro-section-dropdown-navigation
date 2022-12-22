@@ -1,7 +1,7 @@
 import React from "react";
 import desktop from "../assets/image-hero-desktop.png";
 import mobile from "../assets/image-hero-mobile.png";
-import { partners } from "../constants/partners";
+import { partners } from "../constants/data";
 
 const Hero = () => {
   return (
@@ -14,7 +14,7 @@ const Hero = () => {
           Get your team sync, no matter your location. Streamline processes,
           create team rituals and watch productivity soar.
         </p>
-        <button className="border border-black rounded-xl px-6 py-2 transition-all duration-300 bg-black text-white hover:bg-white hover:text-black hover:scale-[1.2] font-bold animate-pulse">
+        <button className="border border-black rounded-xl px-6 py-2 transition-all duration-300 bg-black text-white hover:bg-white hover:text-black sm:hover:scale-[1.2] font-bold sm:animate-pulse z-0">
           Learn more
         </button>
         <div className="grid grid-cols-4 gap-5 md:gap-10 mt-10 place-items-center md:place-items-start">
