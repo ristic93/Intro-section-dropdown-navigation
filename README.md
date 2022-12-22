@@ -1,6 +1,6 @@
 # Frontend Mentor - Intro section with dropdown navigation solution
 
-## [live preview](https://snap-dropdown-navigation.netlify.app)
+## [Live preview site](https://snap-dropdown-navigation.netlify.app)
 
 This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-N_HCFkaezy). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
